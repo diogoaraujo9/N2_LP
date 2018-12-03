@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="900.0" style="-fx-background-color: rgb(77, 0, 77);" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <children>
+      <Button fx:id="btnMenuPrincipal" mnemonicParsing="false" onAction="#carregarTelaMenuPrincipal" prefHeight="90.0" prefWidth="100.0" text="Menu &#10;principal" textAlignment="CENTER" />
+      <Button fx:id="btnCadastrarPaciente" layoutY="90.0" mnemonicParsing="false" onAction="#carregarTelaCadastrarPaciente" prefHeight="90.0" prefWidth="100.0" text="Cadastro de&#10;pacientes" textAlignment="CENTER" />
+      <Button fx:id="btnConsultarPaciente" layoutX="100.0" layoutY="90.0" mnemonicParsing="false" onAction="#carregarTelaConsultarPaciente" prefHeight="90.0" prefWidth="100.0" text="Consultar de&#10;pacientes" textAlignment="CENTER" />
+      <Button fx:id="btnCategoria" layoutX="100.0" mnemonicParsing="false" onAction="#carregarTelaCategoria" prefHeight="90.0" prefWidth="100.0" text="Cadastro de &#10;categorias" textAlignment="CENTER" />
+      <Button fx:id="btnCadastrarPerguntas" layoutY="180.0" mnemonicParsing="false" onAction="#carregarTelaCadastrarPerguntas" prefHeight="90.0" prefWidth="100.0" text="Cadastro de &#10;perguntas" textAlignment="CENTER" />
+      <Button fx:id="btnCadastrarQuestionario" layoutY="270.0" mnemonicParsing="false" onAction="#carregarTelaCadastrarQuestionario" prefHeight="90.0" prefWidth="100.0" text="Cadastro de&#10;questionários" textAlignment="CENTER" />
+      <Button fx:id="btnRealizarQuestionario" layoutY="360.0" mnemonicParsing="false" onAction="#carregarTelaRealizarQuestionario" prefHeight="90.0" prefWidth="100.0" text="Realizar&#10;questionário" textAlignment="CENTER" />
+      <Button fx:id="btnGerarGraficos" layoutX="100.0" layoutY="360.0" mnemonicParsing="false" onAction="#carregarTelaGerarGraficos" prefHeight="90.0" prefWidth="100.0" text="Gerar &#10;gráficos" textAlignment="CENTER" />
+      <Button fx:id="btnSobre" layoutY="450.0" mnemonicParsing="false" onAction="#carregarTelaSobre" prefHeight="90.0" prefWidth="100.0" text="Sobre" textAlignment="CENTER" />
+      <Button layoutX="100.0" layoutY="450.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="100.0" text="Relatório" />
+      <Pane fx:id="paneControl" layoutX="210.0" layoutY="-1.0" prefHeight="587.0" prefWidth="690.0" />
+      <Button fx:id="btnConsultarPerguntas" layoutX="100.0" layoutY="180.0" mnemonicParsing="false" onAction="#carregarTelaConsultarPerguntas" prefHeight="90.0" prefWidth="100.0" text="Consulta de&#10;perguntas" textAlignment="CENTER" />
+      <Button fx:id="btnConsultarQuestionario" layoutX="100.0" layoutY="270.0" mnemonicParsing="false" onAction="#carregarTelaConsultarQuestionario" prefHeight="90.0" prefWidth="100.0" text="Consulta de&#10;questionários" textAlignment="CENTER" />
+   </children>
+</Pane>

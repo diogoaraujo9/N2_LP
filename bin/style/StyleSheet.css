@@ -1,0 +1,132 @@
+.pane {
+	-fx-background-color:  #8b2f97;
+}
+
+.anchor-pane {
+	-fx-background-color:  #8b2f97;
+}
+
+.button {
+    -fx-background-color: 
+         #1a001a,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#990099, #4d004d),
+        radial-gradient(center 50% 0%, radius 100%, rgba(230, 0, 230,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Gadugi";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.button: hover{
+    -fx-background-color: 
+         #1a001a,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#990099, #520052),
+        radial-gradient(center 50% 0%, radius 100%, rgba(230, 117, 218,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Gadugi";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.button: pressed {
+    -fx-background-color: 
+         #1a001a,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#990099, #df8ddc),
+        radial-gradient(center 50% 0%, radius 100%, rgba(239, 195, 237,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Gadugi";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+
+ 	-fx-border-width: 0 0 1 0;
+    	-fx-background-color: transparent;
+	-fx-border-color: white;
+	-fx-text-inner-color: white;
+
+	
+
+}
+
+.text-field:focused {
+    	-fx-border-width: 0 0 1 0;
+    	-fx-background-color: transparent;
+	-fx-border-color: grey;
+	-fx-text-inner-color: white
+}
+
+.label {
+	-fx-font-family: Arial Rounded MT Bold;
+	-fx-font-size: 15px;
+	-fx-text-fill: white;
+-fx-font-weight:bold;
+}
+
+.combo-box-base > .arrow-button {
+   -fx-background-color: purple;
+   -fx-padding: 0 4;
+  }
+
+.combo-box-base > .arrow-button > .arrow {
+    -fx-background-color: black;
+    -fx-background-insets: 0 0 0 0;
+    -fx-padding: 2 4;
+    -fx-shape: "M 0 0 H 7 L 3.5 4 z";
+}
+
+.text-area {
+    text-area-background: #431367;
+	-fx-text-inner-color: white;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+	-fx-text-inner-color: white;
+
+}
+
+.check-box .box {
+
+-fx-background-color: #431367;
+-fx-border-color:#431367;
+-fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+-fx-background-color: #431367;
+}
+
+.combo-box {
+	-fx-background-color: #792984;
+	-fx-border-color: transparent;
+}
+
+.data-picker {
+-fx-background-color: #792984;
+	-fx-border-color: transparent;
+}

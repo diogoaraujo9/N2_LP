@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="690.0" style="-fx-background-color: #8b2f97;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GerarGraficoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cf56a1" height="49.0" stroke="TRANSPARENT" strokeType="INSIDE" width="701.0" />
+      <Text fill="WHITE" layoutX="14.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GERAR GRÁFICOS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Text>
+      <Label layoutX="27.0" layoutY="67.0" text="Paciente" />
+      <Label layoutX="457.0" layoutY="67.0" text="Categoria" />
+      <ComboBox fx:id="cbCategoria" layoutX="457.0" layoutY="93.0" prefHeight="27.0" prefWidth="203.0" />
+      <ComboBox fx:id="cbPaciente" layoutX="27.0" layoutY="93.0" prefHeight="27.0" prefWidth="394.0" />
+      <Label layoutX="27.0" layoutY="139.0" text="Desde" />
+      <Button fx:id="btnGerarGrafico" layoutX="414.0" layoutY="168.0" mnemonicParsing="false" onAction="#gerarGrafico" prefHeight="25.0" prefWidth="156.0" text="Gerar gráfico" />
+      <DatePicker fx:id="txtDesde" layoutX="27.0" layoutY="168.0" />
+      <Label layoutX="216.0" layoutY="138.0" text="Até" />
+      <DatePicker fx:id="txtAte" layoutX="216.0" layoutY="167.0" />
+      <LineChart fx:id="graficoPontuacao" layoutX="21.0" layoutY="237.0" prefHeight="336.0" prefWidth="649.0" title="GRÁFICO">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" tickLabelFill="WHITE" />
+        </yAxis>
+      </LineChart>
+      <Pane fx:id="chartPane" layoutX="36.0" layoutY="271.0" prefHeight="286.0" prefWidth="619.0" />
+   </children>
+</Pane>
